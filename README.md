@@ -43,7 +43,7 @@ https://mcudude.github.io/MiniCore/package_MCUdude_MiniCore_index.json
 # Nahravani ArduinoISP
 ArduinoISP je výkonný nástroj, který vám umožní přeměnit vaši desku Arduino na obvodový programátor. Pojďme se ponořit do detailů:
 
-Bootloader a mikrokontroléry:
+### Bootloader a mikrokontroléry:
 
 Každou desku Arduino lze snadno naprogramovat pomocí softwaru Arduino (IDE). Když připojíte Arduino k počítači přes USB a kliknete na ikonu „Nahrát“, vaše skica se přenese do Flash paměti mikrokontroleru.
 
@@ -51,13 +51,13 @@ Tento proces se opírá o speciální část kódu zvanou Bootloader. Bootloader
 
 Bootloader se nachází ve specifické oblasti paměti mikrokontroléru, kterou nelze přeprogramovat jako běžnou skicu. Hraje klíčovou roli při bezproblémovém programování Arduina.
 
-In-Circuit Serial Programmer (ISP):
+### In-Circuit Serial Programmer (ISP):
 
 K naprogramování Bootloaderu a zajištění kompatibility se softwarem Arduino potřebujete In-Circuit Serial Programmer (ISP). Toto zařízení se připojuje ke konkrétním pinům na mikrokontroléru, což vám umožňuje naprogramovat celou flash paměť včetně Bootloaderu.
 
 Proces programování ISP také zahrnuje nastavení pojistek, které definují, jak mikrokontrolér pracuje za specifických podmínek.
 
-Použití Arduina jako ISP:
+### Použití Arduina jako ISP:
 
 Mezi různými programovacími zařízeními je metoda „Arduino jako ISP“ nákladově efektivní a praktická. Je to vynikající řešení pro vypálení bootloaderu na jinou desku Arduino s mikrokontroléry ATmega, 32U4 nebo ATtiny.
 
