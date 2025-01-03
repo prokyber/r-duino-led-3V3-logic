@@ -65,6 +65,9 @@ Mezi různými programovacími zařízeními je metoda „Arduino jako ISP“ n�
 Otevřete položku nabídky Nástroje - Deska - Manager desek - vyhledáme si MiniCore a dáme instalovat
 
 # Ř-Duino (Jako ISP Programátor):ZAPOJENÍ
+
+<img alt="zapojení" src="https://github.com/prokyber/r-duino-led-3V3-logic/blob/main/img/Sketch-Rduino.png" style="Height: 70vh;">
+
   - Ř-Duino (jako ISP programátor):
   - Pin 10 (SS) -> Pin RESET na Ř-duino-LED
   - Pin 11 (MOSI) -> Pin 11 na Ř-duino-LED
