@@ -1,4 +1,4 @@
-# r-duino-led-3V3-logic
+# Ř-Duino-LED 3V3 logika
 Ahoj, dneska se naučíme jak přepnout vnitřní logické napětí Ř-duina-LED z 5V na 3.3V za pomocí ArduinoISP.
 ArduinoISP je program pro platformu Arduino, který umožňuje použití jednoho Ř-Duina jako programátoru pro nahrání programu do jiného Ř-Duino-LED nebo jiného mikrokontroléru.
 Z jednoho Ř-Duino vytváříme fleshovací jednotku ArduinoISP
