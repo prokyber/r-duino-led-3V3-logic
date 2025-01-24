@@ -76,7 +76,7 @@ Otevřete položku nabídky Nástroje - Deska - Manager desek - vyhledáme si Mi
   - 5V -> 5V na Ř-duino-LED
   - GND -> GND na Ř-duino-LED
 
-V tomto nastavení je Ř-Duino nakonfigurován jako ISP (In-System Programmer) a používá se k programování Ř-duino-LED . Pin 10 (SS) na Ř-Duino je připojen na RESET pin na Ř-duino-LED , což umožňuje Ř-Duinu resetovat Ř-duino-LED během programování. Piny 11, 12 a 13 jsou připojeny k MOSI, MISO a SCK na obou Ř-duinech, což umožňuje komunikaci mezi nimi pomocí SPI protokolu. Propojení 5V a GND slouží k napájení obou Ř-duin.
+V tomto nastavení je jedno Ř-Duino nakonfigurováno jako ISP (In-System Programmer) a používá se k programování druhého Ř-duino-LED. Pin 10 (SS) na Ř-Duino je připojen na RESET pin na Ř-duino-LED , což umožňuje Ř-Duinu resetovat Ř-duino-LED během programování. Piny 11, 12 a 13 jsou připojeny k MOSI, MISO a SCK na obou Ř-duinech, což umožňuje komunikaci mezi nimi pomocí SPI protokolu. Propojení 5V a GND slouží k napájení obou Ř-duin.
 
 # Nastavení Desky + Vypalení Zavaděče
 Otevřete položku nabídky Nástroje - Deska - MiniCore - ATmega328
